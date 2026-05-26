@@ -2,20 +2,20 @@
 
 # Email Spam Classification using Supervised Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on the development of a robust **End-to-End Machine Learning Pipeline** to classify emails as **Spam** or **Ham** (Legitimate). By leveraging Natural Language Processing (NLP) and a suite of Supervised Learning algorithms, the system achieves high accuracy in identifying unsolicited communications.
 
 The final product includes a **Streamlit Web Application** that allows users to input email text and receive real-time predictions.
 
-## 🌐 Live Demo
+##  Live Demo
 You can test the trained model instantly without installing any local dependencies. 
 
 **Deployment Link:** [👉 Click here to open the Web App](https://supervisedmlalgorithms-2cci4hjjqbrekfrhkgm2jh.streamlit.app/)
 
 *Note: The app may take a few seconds to "wake up" if it hasn't been used recently.*
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 * **Language:** Python
 * **Libraries:** Pandas, NumPy, Scikit-Learn, Joblib
@@ -30,7 +30,7 @@ You can test the trained model instantly without installing any local dependenci
 
 
 
-## 📊 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing & EDA
 
@@ -50,7 +50,7 @@ We implemented a "Battle of Algorithms" approach, training each model individual
 
 The trained model and vectorizer were serialized using `joblib` and integrated into a Streamlit dashboard.
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 
@@ -77,7 +77,7 @@ streamlit run app.py
 
 ```
 
-## 📈 Performance Results
+##  Performance Results
 
 | Algorithm | Accuracy |
 | --- | --- |
@@ -86,7 +86,7 @@ streamlit run app.py
 | Naive Bayes | 94.1% |
 | AdaBoost | 96.8% |
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ├── data/
